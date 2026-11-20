@@ -4,26 +4,50 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Leonida Clips Publisher – Privacy Policy</title>
-<style>body{font-family:system-ui,Segoe UI,Arial,sans-serif;max-width:760px;margin:40px auto;padding:0 16px;line-height:1.6;color:#1a1a1a;background:#fff}h1{font-size:1.6rem}</style>
+<style>body{font-family:system-ui,Segoe UI,Arial,sans-serif;max-width:760px;margin:40px auto;padding:0 16px;line-height:1.6;color:#1a1a1a;background:#fff}h1{font-size:1.6rem}h2{font-size:1.2rem;margin-top:1.6em}a{color:#d0136f}</style>
 </head>
 <body>
 <h1>Leonida Clips Publisher – Privacy Policy</h1>
-<p>Last updated: November 19, 2026</p>
+<p>Last updated: November 20, 2026</p>
 <p>Leonida Clips Publisher ("the app") is a personal desktop tool operated by the owner of the Leonida Clips channels
 (@leonidaclipspot). It uploads short, credited highlight clips of GTA 6 live streams, edited by the owner under the
 streamers' official clipping programs, to the owner's own accounts on YouTube, Instagram and TikTok.</p>
+
+<h2>YouTube API Services</h2>
+<p>The app uses <strong>YouTube API Services</strong> to upload videos to the owner's own YouTube channel.
+By using the app you agree to be bound by the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
+Google's handling of data is described in the
+<a href="https://www.google.com/policies/privacy">Google Privacy Policy</a>.</p>
+<p>YouTube data the app accesses through the YouTube Data API v3:</p>
+<ul>
+  <li><strong>videos.insert</strong> (scope youtube.upload): uploads a video file with its title, description, tags and privacy status to the signed-in channel.</li>
+  <li><strong>channels.list</strong> with mine=true (scope youtube.readonly): reads the signed-in channel's ID and title once, only to confirm that the owner signed in to the correct channel.</li>
+</ul>
+<p>The app does not read, collect or store data about any other YouTube users or viewers, and does not display or embed YouTube videos.</p>
+
 <h2>What data the app uses</h2>
 <ul>
-  <li>OAuth access tokens issued by YouTube, Instagram/Facebook and TikTok for the owner's own accounts.</li>
+  <li>OAuth access and refresh tokens issued by Google (YouTube), Instagram/Facebook and TikTok for the owner's own accounts.</li>
   <li>Basic account information returned by these platforms (account ID and username), used only to publish videos.</li>
 </ul>
-<h2>How data is stored</h2>
-<p>All tokens and settings are stored only on the owner's personal computer. The app has no server, does not collect
-data about other people, does not sell or share data with third parties and does not use data for advertising.</p>
-<h2>Data deletion</h2>
-<p>Access can be revoked at any time in the security settings of each platform. Deleting the app's local
-<code>secrets</code> folder removes all stored tokens.</p>
+
+<h2>How data is used, stored and shared</h2>
+<p>All tokens and settings are stored only on the owner's personal computer, in a local file. The app has no server,
+uses no cookies or tracking, does not sell or share any data with third parties and does not use data for advertising.
+Channel information read from the YouTube API is used only during the sign-in step and is not retained.</p>
+
+<h2>Revoking access and data deletion</h2>
+<ul>
+  <li>Google / YouTube access can be revoked at any time on the
+      <a href="https://security.google.com/settings/security/permissions">Google security settings page</a>.</li>
+  <li>Instagram/Facebook and TikTok access can be revoked in the security / app-permission settings of each platform.</li>
+  <li>When access is revoked, or on request to the contact below, all stored tokens and any YouTube API data are deleted
+      from the owner's computer within 7 days. Deleting the app's local <code>secrets</code> folder removes all stored tokens immediately.</li>
+</ul>
+
 <h2>Contact</h2>
-<p>Questions: leonidaclipspot@gmail.com</p>
+<p>Questions: <a href="mailto:leonidaclipspot@gmail.com">leonidaclipspot@gmail.com</a></p>
+<p><a href="index.html">Home</a> · <a href="terms.html">Terms of Service</a></p>
 </body>
 </html>
